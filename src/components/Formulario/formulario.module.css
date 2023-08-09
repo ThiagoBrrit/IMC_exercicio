@@ -1,0 +1,36 @@
+.textIMC {
+    color: #000;
+    border: 3px solid #000;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+
+.formulario {
+    padding: 120px ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+.inputs {
+    padding: 16px;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.table{
+    width: 100%;
+    margin-bottom : .5em;
+    table-layout: fixed;
+    text-align: center;
+}
+
+td{
+    padding: .7em;
+    margin: 0;
+    border: 1px solid #ccc;
+    text-align: center;
+}
